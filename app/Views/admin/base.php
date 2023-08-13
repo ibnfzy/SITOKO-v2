@@ -15,8 +15,15 @@
   <link rel="stylesheet" href="<?= base_url('') ?>dist/css/adminlte.min.css">
 </head>
 
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition layout-navbar-fixed text-sm layout-footer-fixed sidebar-mini-xs layout-fixed dark-mode"
+  style="height: auto;">
   <div class="wrapper">
+
+    <!-- Preloader -->
+    <div class="preloader flex-column justify-content-center align-items-center">
+      <img class="animation__shake" src="<?= base_url('SITOKO-WHITE.png') ?>" alt="AdminLTELogo" height="500"
+        width="500">
+    </div>
 
     <!-- Navbar -->
     <?= $this->include('admin/layout/navbar'); ?>
@@ -49,6 +56,8 @@
   <script src="<?= base_url('') ?>plugins/jquery/jquery.min.js"></script>
   <!-- Bootstrap 4 -->
   <script src="<?= base_url('') ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- ChartJS -->
+  <script src="<?= base_url('') ?>plugins/chart.js/Chart.min.js"></script>
   <!-- AdminLTE App -->
   <script src="<?= base_url('') ?>dist/js/adminlte.min.js"></script>
 
