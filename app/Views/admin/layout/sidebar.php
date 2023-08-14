@@ -26,35 +26,52 @@
         data-widget="treeview" role="menu" data-accordion="false">
         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-        <li class="nav-item menu-open">
-          <a href="#" class="nav-link active">
-            <i class="nav-icon fas fa-tachometer-alt"></i>
-            <p>
-              Starter Pages
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="#" class="nav-link active">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Active Page</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Inactive Page</p>
-              </a>
-            </li>
-          </ul>
-        </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-th"></i>
+            <i class="nav-icon fas fa-home"></i>
             <p>
-              Simple Link
-              <span class="right badge badge-danger">New</span>
+              Home
+              <!-- <span class="right badge badge-danger">New</span> -->
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-tag"></i>
+            <p>
+              Kategori Barang
+              <!-- <span class="right badge badge-danger">New</span> -->
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-box-open"></i>
+            <p>
+              Barang
+              <!-- <span class="right badge badge-danger">New</span> -->
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-cart-plus"></i>
+            <p>
+              Transaksi
+              <!-- <span class="right badge badge-danger">New</span> -->
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-users"></i>
+            <p>
+              Pelanggan
+              <!-- <span class="right badge badge-danger">New</span> -->
             </p>
           </a>
         </li>
