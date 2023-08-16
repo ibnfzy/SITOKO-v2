@@ -11,7 +11,8 @@ class Admin extends Migration
         $this->forge->addField([
             'id_admin' => [
                 'type' => 'INT',
-                'constraint' => 3
+                'constraint' => 3,
+                'auto_increment' => true
             ],
             'fullname' => [
                 'type' => 'VARCHAR',
